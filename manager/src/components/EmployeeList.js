@@ -14,10 +14,6 @@ class EmployeeList extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    // nextProps are the next set of props that this component
-    // will be rendered with
-    // this.props is still the old set of props
-
     this.createDataSource(nextProps);
   }
 

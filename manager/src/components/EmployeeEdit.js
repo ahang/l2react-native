@@ -32,6 +32,7 @@ class EmployeeEdit extends Component {
     const { uid } = this.props.employee;
 
     this.props.employeeDelete({ uid });
+    this.setState({ showModal: false });
   }
 
   onDecline() {
